@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: 'Rajdhani', sans-serif;
+}
+
+:root {
+  --right-background: #FFF7E2;
+  --left-background: #220713;
+  --nav-links: #FFF7E2;
+  --nav-head: #FFF7E2;
 }
 
 html,
@@ -12,5 +21,12 @@ body {
   display: grid;
 
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 4fr;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .home {
+    grid-template-columns: 0fr 1fr;
+  }
 }

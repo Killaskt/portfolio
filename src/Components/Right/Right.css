@@ -1,0 +1,38 @@
+.right {
+    display: grid;
+
+    background-color: var(--right-background);
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 3.5fr 1fr .5fr 3fr .1fr;
+
+    height: 250vh;
+}
+
+.welcome-greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline__ {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    height: 75px;
+}
+
+@media screen and (max-width: 650px) {
+    .timeline__ {
+        margin: 0 2rem;
+    }
+} 
